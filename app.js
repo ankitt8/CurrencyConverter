@@ -53,7 +53,7 @@ app.post("/results", (req, res) => {
     fetch(url)
           .then(response => response.json())
           .then(price_conversion_rate => {
-            // console.log('price_conversion_rate');
+            // console.log('price_conversion_rate'); {'INR_USD':0.234}
             // console.log(price_conversion_rate)
             // console.log('typeof csvinputtojson')
             // console.log(typeof csv_input_to_json)  answer is string

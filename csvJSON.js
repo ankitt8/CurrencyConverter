@@ -9,8 +9,10 @@ exports.csv_to_json = (csvfile) => {
     let result = []; //the array of objects
     //in our case as there is only one header below will also work fine
     // header = lines[0];
-    metrics = {}
+    // metrics = {}
     // let avg=0, min=0, median=0, maximum=0;
+    // console.log('hi lines')
+    // console.log(lines)
     for(let i=1; i < lines.length-1; ++i) {
         let obj = {};
         let current_line = lines[i].split(',');
